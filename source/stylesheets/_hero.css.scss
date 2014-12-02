@@ -1,3 +1,5 @@
+@import "buttons";
+
 .hero {
   background: $base-hero-color;
   text-align: center;
@@ -17,23 +19,16 @@
   font-weight: $font-weight-normal;
 }
 
+.hero-cta {
+  @include button-solid($base-accent-color);
+}
+
 
 .hero-image {
   background-image: url("/images/hero-banner.png");
-  background-size: auto 17em;
+  background-size: auto 18.7em;
   background-repeat: no-repeat;
-  height: 17em;
-  margin-top: 4em;
-}
-
-.button {
-  background-color: $pink;
-  border-radius: $base-border-radius;
-  box-sizing: border-box;
-  color: white;
-  display: inline-block;
-  font-weight: $font-weight-bold;
-  padding: 0.75em 1.25em;
-  text-align: center;
-  text-transform: uppercase;
+  height: 19em;
+  width: 100%;
+  margin: 4em auto 0;
 }

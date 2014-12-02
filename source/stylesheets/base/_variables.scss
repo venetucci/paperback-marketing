@@ -32,10 +32,10 @@ $base-z-index: 0;
 $pink: #F26F4C;
 $light-pink: #F6B9Af;
 $dark-gray: #231F20;
-$medium-gray: #606060;
+$medium-gray: #888888;
 $light-gray: #f2f2f2;
 $light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
+$light-yellow: #E5C86C;
 $light-green: #E6EFC2;
 
 // Background Color
@@ -46,7 +46,7 @@ $base-font-color: $dark-gray;
 $base-accent-color: $pink;
 
 // Link Colors
-$base-link-color: $base-accent-color;
+$base-link-color: $medium-gray;
 $hover-link-color: darken($base-accent-color, 15);
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;

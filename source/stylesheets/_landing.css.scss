@@ -1,4 +1,9 @@
+@import "buttons";
+
 .introduction {
+}
+
+.section-gray {
   background-color: $light-gray;
 }
 
@@ -39,10 +44,70 @@
 
 .introduction-item-header {
   color: $dark-gray;
-  margin: 0 0 0.75em;
 }
 
 .introduction-item-text {
   font-size: $base-font-size;
 }
 
+.preview .sales .workflow {
+  text-align: center;
+}
+
+.preview-code-block {
+  background-color: $dark-gray;
+  border-radius: $base-border-radius;
+  box-sizing: border-box;
+  color: $light-yellow;
+  display: inline-block;
+  font-weight: $font-weight-normal;
+  padding: 0.75em 1.25em;
+  text-align: center;
+}
+
+.workflow-item-wrapper {
+  margin-top: 4em;
+}
+
+.workflow-icon-section {
+
+  @include span-columns(4 of 12);
+}
+
+.workflow-icons {
+  height: 12em;
+  background-size: auto 12em;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12em;
+}
+
+.icon-one {
+  background-image: url("/images/icon-1-landing.png");
+}
+
+.icon-two {
+  background-image: url("/images/icon-2-landing.png");
+}
+
+.icon-three {
+  background-image: url("/images/icon-3-landing.png");
+}
+
+.workflow-text {
+  margin-top: 1em;
+
+  @include span-columns(8 of 12);
+  @include shift(2);
+}
+
+.sales-text {
+  display: block;
+  width:60%;
+  margin: 0 auto 1.3em;
+}
+
+.sales-cta {
+  @include button-solid($light-pink);
+}
