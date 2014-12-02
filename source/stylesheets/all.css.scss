@@ -1,7 +1,18 @@
 @charset "utf-8";
 
+@import "bourbon";
+@import "base/base";   /* Bitters needs to be imported before Neat */
+@import "neat";
+@import "base/base";
+
+@import "hero";
+@import "global_nav";
+@import "modules/layout";
+@import "landing";
+
+
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #ffffff;
   text-align: center;
   font-family: sans-serif; }
 

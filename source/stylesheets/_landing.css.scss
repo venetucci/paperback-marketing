@@ -1,0 +1,72 @@
+.introduction {
+  background-color: $light-gray;
+}
+
+.introduction-container.active {
+  margin-top: $global-nav-height;
+}
+
+.introduction-item {
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+    @include fill-parent;
+    @include clearfix;
+    display: block;
+    margin-bottom: 6em;
+}
+
+.introduction-item-graphic-wrapper,
+.introduction-item-text-wrapper {
+    @include span-columns(6 of 12);
+    @include omega(2n);
+    padding: 2em;
+}
+
+.introduction-item-graphic-wrapper {
+  order: 1;
+  margin: 0 auto;
+  width: 100%;
+
+    @include span-columns(6 of 12);
+}
+
+.introduction-item-text-wrapper {
+  order: 2;
+    margin-top: 4em;
+    text-align: left;
+}
+
+.introduction-browser {
+  @include fill-parent;
+  background-image: url("/images/yelna-home.png");
+
+    width: auto;
+}
+
+.introduction-browser-body {
+  height: em(300);
+  background-image: url("/images/yelna-home.png");
+  background-size: auto 17em;
+  background-repeat: no-repeat;
+
+
+}
+
+.introduction-browser-window {
+  background-image: url("/images/yelna-home.png");
+  background-size: em(80);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.introduction-item-header {
+  color: $dark-gray;
+}
+
+.introduction-item-text {
+  font-size: $base-font-size;
+}
+

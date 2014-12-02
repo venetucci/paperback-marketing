@@ -1,0 +1,39 @@
+.hero {
+  background: $base-hero-color;
+  text-align: center;
+  color: $dark-gray;
+}
+
+.hero-headline {
+  font-size: $base-font-size * 1.8;
+  font-weight: $font-weight-normal;
+  margin-top: 2em;
+}
+
+.hero-description {
+  font-size: $base-font-size * 1.25;
+  display: block;
+  margin: 1.3em 0;
+  font-weight: $font-weight-normal;
+}
+
+
+.hero-image {
+  background-image: url("/images/hero-banner.png");
+  background-size: auto 17em;
+  background-repeat: no-repeat;
+  height: 17em;
+  margin-top: 4em;
+}
+
+.button {
+  background-color: $pink;
+  border-radius: $base-border-radius;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-weight: $font-weight-bold;
+  padding: 0.75em 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+}

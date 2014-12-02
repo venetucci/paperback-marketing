@@ -1,0 +1,26 @@
+.wrap-container {
+  @include outer-container;
+  padding: 0 $gutter;
+}
+
+.centered-content {
+  @include fill-parent;
+  @include clearfix;
+  text-align: center;
+}
+
+.body-content-container {
+  position: relative;
+  padding-top: 6em;
+  margin-bottom: 6em;
+}
+
+h1 {
+    padding-bottom: 0.35em;
+    margin-bottom: 0.35em;
+  }
+
+hr {
+  width: 75%;
+  margin: 4em auto;
+}
