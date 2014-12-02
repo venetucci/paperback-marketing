@@ -12,3 +12,9 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
+
+# Serve static assets
+gem "rack-contrib", "~> 1.2.0"
+
+# Better web server
+gem "puma", "~> 2.10.2"
