@@ -1,0 +1,32 @@
+@import "buttons";
+
+.about-hero-image {
+  background-image: url("/images/yelna-about.png");
+  background-repeat: no-repeat;
+  background-size: auto 18em;
+  height: 18em;
+  margin: 4em auto 0;
+  width: 25%;
+}
+
+.about-main-content-wrapper {
+
+  @include span-columns(10 of 12);
+  @include shift(1);
+}
+
+.about-description {
+  display: inline-block;
+  font-weight: $font-weight-normal;
+  margin: 1.3em 0;
+  text-align: left;
+}
+
+.about-bullet-points li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 1em;
+
+  @include span-columns(3 of 12);
+}
+

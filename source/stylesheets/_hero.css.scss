@@ -7,22 +7,15 @@
 }
 
 .hero-headline {
-  font-size: $base-font-size * 1.8;
   font-weight: $font-weight-normal;
   margin-top: 2em;
 }
 
 .hero-description {
-  font-size: $base-font-size * 1.25;
   display: block;
   margin: 1.3em 0;
   font-weight: $font-weight-normal;
 }
-
-.hero-cta {
-  @include button-solid($base-accent-color);
-}
-
 
 .hero-image {
   background-image: url("/images/hero-banner.png");

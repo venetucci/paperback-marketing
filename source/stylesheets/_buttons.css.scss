@@ -29,3 +29,8 @@
     background-color: $color;
   }
 }
+
+.main-cta {
+
+  @include button-solid($base-accent-color);
+}

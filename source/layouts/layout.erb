@@ -8,6 +8,8 @@
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
+
+    <%= partial 'partials/global_nav' %>
     
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -16,4 +18,5 @@
   <body class="<%= page_classes %>">
     <%= yield %>
   </body>
+<%= partial 'partials/global_footer' %>
 </html>
