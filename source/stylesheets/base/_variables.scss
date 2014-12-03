@@ -30,6 +30,7 @@ $base-z-index: 0;
 
 // Colors
 $pink: #F26F4C;
+$white: #FFFFFF;
 $light-pink: #F6B9Af;
 $dark-gray: #231F20;
 $medium-gray: #888888;
@@ -77,6 +78,7 @@ $global-nav-link-color: white;
 $global-nav-link-hover-color: rgba($global-nav-link-color, 0.75);
 
 // Footer Variables
+$base-footer-color: $base-accent-color;
 $footer-link-color: $medium-gray;
 $footer-link-hover-color: darken($footer-link-color, 10);
 
