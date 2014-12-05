@@ -4,9 +4,17 @@
 
 .plans .inner {
   margin: 0 auto;
-  padding: 40px 0 100px;
+  padding: 40px 0 0;
   position: relative;
   width: 960px;
+}
+
+.features a {
+  border-bottom: 1px solid $light-gray;
+
+  &:hover {
+    border-bottom: 1px solid $base-accent-color;
+  }
 }
 
 .plans nav {
@@ -68,11 +76,13 @@
   margin-bottom: 3em;
   text-align: left;
 
-  @include span-columns(5 of 12);
+  @include span-columns(6 of 12);
+  @include omega(2n);
 }
 
 .more-information ol {
-  @include shift(0);
+  @include span-columns (10 of 12);
+  @include shift(1);
 }
 
 .more-information h5 {
