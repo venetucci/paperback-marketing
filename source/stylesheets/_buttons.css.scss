@@ -34,3 +34,8 @@
 
   @include button-solid($base-accent-color);
 }
+
+.secondary-cta {
+
+  @include button-outline($base-accent-color);
+}
