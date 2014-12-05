@@ -9,6 +9,14 @@
   width: 960px;
 }
 
+.features a {
+  border-bottom: 1px solid $light-gray;
+
+  &:hover {
+    border-bottom: 1px solid $base-accent-color;
+  }
+}
+
 .plans nav {
   padding-right: 35px;
   text-align: right;
