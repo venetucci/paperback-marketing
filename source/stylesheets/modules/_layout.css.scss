@@ -1,6 +1,5 @@
 .wrap-container {
   @include outer-container;
-  padding: 0 $gutter;
 }
 
 .centered-content {

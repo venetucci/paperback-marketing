@@ -1,0 +1,88 @@
+.plans {
+  padding: 0 35px;
+}
+
+.plans .inner {
+  margin: 0 auto;
+  padding: 40px 0 0;
+  position: relative;
+  width: 960px;
+}
+
+.plans nav {
+  padding-right: 35px;
+  text-align: right;
+}
+
+.plans nav ol {
+  margin-top: 136px;
+}
+
+.plans section.plan {
+  background: white;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-right: 1px solid #d9d4cc;
+  border: 1px solid #d9d4cc;
+  box-shadow: -1px 0 0 #d9d4cc;
+  text-align: center;
+}
+
+.plans section.plan li {
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  padding: 0 35px;
+}
+
+.plans nav li, .plans .plan li, .plans header p li {
+  height: 45px;
+}
+
+.plans nav, .plans .plan, .plans header p {
+  float: left;
+  width: 190px;
+}
+
+.plans section.plan:nth-of-type(3) {
+  box-shadow: 1px 0 0 #d9d4cc;
+  margin-bottom: 6em;
+}
+
+.plans section.plan h3 {
+  color: #3b3b3b;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 120px;
+  padding: 35px;
+}
+
+.check-lg img {
+  margin-top: 0.8em;
+}
+
+.more-information {
+  display: block;
+}
+
+.more-information li {
+  display: inline-block;
+  margin-bottom: 3em;
+  text-align: left;
+
+  @include span-columns(6 of 12);
+  @include omega(2n);
+}
+
+.more-information ol {
+  @include span-columns (10 of 12);
+  @include shift(1);
+}
+
+.more-information h5 {
+  margin-bottom: 1em;
+}
+
+.recommended-service {
+  font-weight: 400;
+  font-size: $base-font-size;
+  padding: 1.5em 1em;
+}
