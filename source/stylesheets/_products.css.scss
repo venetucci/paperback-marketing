@@ -9,12 +9,16 @@
   width: 960px;
 }
 
-.features a {
+.features a, .features-description a {
   border-bottom: 1px solid $light-gray;
 
   &:hover {
     border-bottom: 1px solid $base-accent-color;
   }
+}
+
+.features p {
+  color: $medium-gray;
 }
 
 .plans nav {
@@ -31,8 +35,9 @@
   border-left-width: 0;
   border-right-width: 0;
   border-right: 1px solid #d9d4cc;
-  border: 1px solid #d9d4cc;
   box-shadow: -1px 0 0 #d9d4cc;
+  border-top: 1px solid #d9d4cc;
+  border-bottom: 1px solid #d9d4cc;
   text-align: center;
 }
 
@@ -51,7 +56,6 @@
 }
 
 .plans section.plan:nth-of-type(3) {
-  box-shadow: 1px 0 0 #d9d4cc;
   margin-bottom: 6em;
 }
 
@@ -61,6 +65,11 @@
   font-weight: 600;
   height: 120px;
   padding: 35px;
+}
+
+.product-cost {
+  opacity: 0.5;
+  padding-top: 0.8em;
 }
 
 .check-lg img {
