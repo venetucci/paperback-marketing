@@ -12,16 +12,18 @@
   @include button;
   background-color: $color;
   color: white;
+  border: em(2) solid $color;
 
   &:hover {
     color: white;
     background-color: darken($color, 4);
+    border-color: darken($color, 4);
   }
 }
 
 @mixin button-outline($color) {
   @include button;
-  border: 2px solid $color;
+  border: em(2) solid $color;
   color: $color;
 
   &:hover {
